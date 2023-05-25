@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="app-wrap">
@@ -12,14 +12,14 @@
       <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
     </header>
     <main>
-      <section>
-        <div >Kochi, India</div>
-        <div >Thursday 25 May 2023</div>
+      <section class="location">
+        <div class="city">Kochi, India</div>
+        <div class="date">Thursday 25 May 2023</div>
       </section>
-      <div >
-        <div>31<span>°c</span></div>
-        <div >Sunny</div>
-        <div>33°c / 27°c</div>
+      <div class="current">
+        <div class="temp">31<span>°c</span></div>
+        <div class="weather">Sunny</div>
+        <div class="hi-low">33°c / 27°c</div>
       </div>
     </main>
   </div>
