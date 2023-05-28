@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  --primary-color: #5598fd;
+  --primary-color: #affb7d;
 }
 
 * {
@@ -71,11 +71,12 @@ img {
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background: var(--primary-color);
+  background:#378007;
   color: #fff;
   font-size: 14px;
   cursor: pointer;
 }
+
 .search ul {
   max-height: 300px;
   overflow-y: auto;
@@ -181,7 +182,7 @@ img {
   text-transform: capitalize;
 }
 .main nav .options button.active {
-  color: var(--primary-color);
+  color: #378007;
 }
 
 .main nav .units button {
@@ -193,7 +194,7 @@ img {
 }
 .main nav .units button.active {
   color: #fff;
-  background-color: #1a1a1a;
+  background-color:#378007;
 }
 .main .cards {
   display: flex;
